@@ -1,0 +1,108 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:gray;
+}
+
+a {
+  color: white;
+  text-align:center;
+   
+}
+
+a:hover { 
+    background-color: red;
+     opacity: .3;
+ transition: opacity .55s ease-in-out;
+ -moz-transition: opacity .55s ease-in-out;
+ -webkit-transition: opacity .55s ease-in-out;
+ color: white;
+ border-radius: 15px;
+}
+
+form{
+	text-align:center;
+	margin:auto;
+	padding:20px;
+	
+}
+
+ul{
+	text-align:center;
+		margin:auto;
+
+
+}
+
+h1,h2{
+	text-align:center;
+		margin:auto;
+		
+
+}
+
+p{
+	text-align:center;
+		margin:auto;
+		margin-bottom:10px;
+		margin-top:10px;
+
+}
+
+.linkStyles{
+		text-align:center;
+			margin:auto;
+			
+}
+
+input{margin-bottom:10px;}
+
+
+.shining
+{
+    background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat !important;
+    -webkit-background-size: 125px !important;
+    
+    color: rgba(255, 255, 255, 0.5) !important;
+    -webkit-background-clip: text !important;
+    
+    -webkit-animation-name: shine !important;
+    -webkit-animation-duration: 3s !important;
+    -webkit-animation-iteration-count: infinite !important;
+    color:orange; 
+}
+
+@-webkit-keyframes shine
+{
+    0%
+    {
+        background-position: top left;
+    }
+    100%
+    {
+        background-position: top right;
+    }
+}
+
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+.shake:hover,
+.shake:focus {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
